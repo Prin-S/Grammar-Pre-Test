@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+@media (min-width: 0px) {
+    .layout {
+        margin: 3em 1em;
+        width: 95%;
+    }
+
+    .mobile-img {
+        width: 100%;
+    }
+
+    .left-column {
+        padding-left: 3em!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .layout {
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        width: 1140px;
+    }
+
+    .mobile-img {
+        width: 60%;
+    }
+
+    .left-column {
+        padding-left: 0!important;
+    }
+}
+
+.header {
+    padding: 30px 10px;
+    background-color: #16163F;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #16163F;
+}
+
+.container {
+    max-width: 1140px!important;
+}
+
+.header-container {
+    max-width: 1785px!important;
+}
+
+.navbar .navbar-nav .nav-link, .dropdown-item {
+    font-family: "Kanit";
+    font-size: 14px;
+    color: #FFFFFF!important;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus, .dropdown-item:hover, .dropdown-item:focus {
+    color: #998675!important;
+    background-color: #16163F!important;
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .dropdown .dropdown-menu {
+      display: none;
+    }
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #16163F!important;
+    --bs-dropdown-border-radius: 0!important;
+    --bs-dropdown-border-width: 0!important;
+}
+
+.navbar {
+    --bs-navbar-toggler-focus-width: 0!important;
+}
+
+.fa-bars {
+    color: #FFFFFF;
+}
+
+.fa-bars:hover {
+    color: #998675;
+}
+
+.navbar-toggler {
+    border: 0px!important;
+}
+
+.result, .form-label, .form-check-label, h1, h2, h3, h4, h5, h6, span {
+    font-family: "Kanit";
+}
+
+.white-color {
+    color: #FFFFFF;
+}
+
+.white-color-link {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.white-color-link:hover, .white-color-link:focus {
+    color: #998675;
+    text-decoration: none;
+}
+
+.form-check-input:checked {
+    background-color: #85775a!important;
+    border-color: #85775a!important;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem #4085775a!important;
+}
+
+.btn {
+    font-family: "Kanit"!important;
+    color: #FFFFFF!important;
+    background-color: #85775a!important;
+    border-style: solid!important;
+    border-width: 2px 2px 2px 2px!important;
+    border-color: #85775a!important;
+}
+
+.btn:hover, .btn:focus {
+    opacity: 0.8!important;
+}
+
+.gold {
+    background-color: #85775A!important;
+    border-color: #85775A!important;
+}
+
+.left-gold {
+    padding: 0px 0px 0px 30px;
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    border-color: #d3b574;
+    font-weight: 100;
+}
+
+.subheading {
+    padding-left: 30px;
+}
+
+.fb {
+    background-color: #1877f2!important;
+    border-color: #1877f2!important;
+}
+
+.line {
+    background-color: #00b900!important;
+    border-color: #00b900!important;
+}
+
+.icons {
+    color: #85775A;
+    margin: 20px 0;
+}
+
+.chart-line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.tooltip {
+    color: #FFFFFF;
+    background-color: #000;
+    border-radius: 5px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+span.tooltip-text {
+    font-family: "Kanit";
+    font-size: 12px;
+}

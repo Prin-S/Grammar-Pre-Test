@@ -1,0 +1,30 @@
+{
+	"name": "grammar-pre-test",
+	"author": "Prin S",
+	"description": "Grammar Pre-Test app for PrinEnglish",
+	"keywords": [
+		"grammar",
+		"pre-test",
+		"node",
+		"express"
+	],
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.1",
+		"cors": "^2.8.5",
+		"d3": "^7.8.2",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongodb": "^4.11.0",
+		"mongoose": "^6.7.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	},
+	"license": "MIT"
+}
